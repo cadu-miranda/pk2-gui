@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICKit 2 PGL</title>
+    <script src="./childProcess.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input class="file-loader" id="caminho-arquivo" type="file" value="">
+    <button id="pic-write" class="_button">Write</button>
+    <button id="pic-verify" class="_button">Verify</button>
+    <button id="pic-erase" class="_button">Erase</button>
+    <button id="pic-blankCheck" class="_button">Blank Check</button>
+    <p>Output</p>
+    <pre class="logger" id="logger"></pre>
+
+    <script>
+
+        (function () {
+
+            const old = console.log
+            const logger = document.querySelector('#logger')
+
+            console.log = function () {
+
+                for (let i = 0; i < arguments.length; i++) {
+
+                    if (typeof arguments[i] == 'object')
+
+                        logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(arguments[i], undefined, 2) : arguments[i]) + '<br />'
+
+                    else
+
+                        logger.innerHTML += arguments[i] + '<br />'
+                }
+            }
+        })()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "pk2-gui",
+  "version": "1.0.0",
+  "description": "PICkit 2 Programmer GUI for Linux (not official). Only basic functions are available.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --out=build"
+  },
+  "keywords": [],
+  "author": "Carlos E. Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.0.1",
+    "electron-reloader": "^1.2.1"
+  }
+}

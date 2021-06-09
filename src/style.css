@@ -1,0 +1,32 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.file-loader {
+  margin: 20px 2px 2px 170px;
+}
+
+._button {
+  margin: 40px 10px 5px 35px;
+  color: black;
+  height: 80px;
+  width: 95px;
+}
+
+.logger {
+  margin: 10px 0px 15px 30px;
+  width: 90%;
+  height: 150px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
