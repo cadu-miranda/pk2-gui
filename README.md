@@ -1,4 +1,4 @@
-## GUI simples para gravador de PICKit 2 para Kernel Linux usando Electron.
+## Aplicativo Desktop desenvolvido para ajudar na gravação de PICs usando o programador PICKit 2 em plataformas Linux.
 
 ## Instruções: Rode "npm i" -> "npm start" 
 
