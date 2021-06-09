@@ -1,4 +1,4 @@
-## Aplicativo Desktop desenvolvido para ajudar na gravação de PICs usando o programador PICKit 2 em plataformas Linux.
+## Aplicativo Desktop desenvolvido para ajudar na gravação de PICs usando o programador PICKit 2 em plataformas Linux. (v1.0)
 
 ## Instruções: Rode "npm i" -> "npm start" 
 
